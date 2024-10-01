@@ -3,6 +3,6 @@ public class Types {
         // playing with print-format
         int dob = 51;
         int delex = dob++ * 3;
-    System.out.printf("progres: %d", delex);
+    System.out.printf("progress: %d", delex);
     }
 }
