@@ -14,6 +14,6 @@ public class Task4 {
             priceRuble++;
             priceKopeck = priceKopeck - 100;
         }
-        System.out.printf("%d rub. %02d kop.", priceRuble, priceKopeck);
+        System.out.printf("%d rub. %02d kop. ", priceRuble, priceKopeck);
     }
 }
