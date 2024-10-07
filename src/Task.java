@@ -8,5 +8,6 @@ class Task {
         System.out.printf("По этому поводу Вам скидка %1.1f%% \n", discount);
         System.out.print("на весь ассортимент нашего сайта!");
         System.out.println((8 / 4) - (8 + (2 - 1)) + 7 * 2);
+
     }
 }
