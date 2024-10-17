@@ -36,6 +36,7 @@ public class Task13 {
             default:
                 System.out.println("ERROR");
                 break;
+
         }
     }
 }
