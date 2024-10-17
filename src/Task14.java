@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Java14 {
+public class Task14 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         var numberDayWeek = scanner.nextLine();
