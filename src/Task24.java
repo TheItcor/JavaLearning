@@ -13,9 +13,9 @@ public class Task24 {
         monthsOfYear[9] = "October";
         monthsOfYear[10] = "November";
         monthsOfYear[11] = "December";
-        for (int i = 0; i < 12; i++) {
+        for (int i = 0; i < monthsOfYear.length; i++) {
             System.out.print(monthsOfYear[i]);
-            if (i == 11) {
+            if (i == monthsOfYear.length - 1) {
                 System.out.print(".");
             } else {
                 System.out.print(", ");
