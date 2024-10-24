@@ -16,7 +16,6 @@ public class Task21 {
             System.out.printf("%.1f",sred);
         } else {
             System.out.println("No data");
-
         }
     }
 }
