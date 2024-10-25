@@ -9,7 +9,7 @@ public class Cat {
         return "Name: " + name + ", Owner name: " + ownerName + ", Breed: " + breed + ", Weight: " + weight;
     }
 
-    Void happyBirthday() {
+    void happyBirthday() {
         System.out.printf("Happy birthday, %s!", name);
     }
 
