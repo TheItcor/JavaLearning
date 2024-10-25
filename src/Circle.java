@@ -1,7 +1,7 @@
 public class Circle {
     double radius = 1;
-    double square = getSquare(radius);
-    double diameter = radius/2;
+    double square = getSquare(this.radius);
+    double diameter = this.radius/2;
 
     double getSquare(double radius) {
         this.square = Math.PI * Math.pow(radius, 2);
@@ -14,7 +14,7 @@ public class Circle {
     }
 
     void getInfo() {
-        System.out.printf("Radius: %.2f, Square: %.2f, Diameter: %.2f \n", radius, square, diameter);
+        System.out.printf("Radius: %.2f, Square: %.2f, Diameter: %.2f \n", this.radius, this.square, this.diameter);
     }
 
     void getCool() {
