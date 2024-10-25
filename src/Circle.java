@@ -1,7 +1,13 @@
 public class Circle {
-    double radius = 1;
-    double square = getSquare(this.radius);
-    double diameter = this.radius/2;
+    double radius;
+    double square;
+    double diameter;
+
+    Circle(double radius) {
+        this.radius = radius;
+        this.square = getSquare(radius);
+        this.diameter = radius/2;
+    }
 
     double getSquare(double radius) {
         this.square = Math.PI * Math.pow(radius, 2);
