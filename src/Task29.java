@@ -5,6 +5,6 @@ public class Task29 {
         someBox.y = 10;
         someBox.z = 20;
         var boxVolume = someBox.x * someBox.y * someBox.z;
-        System.out.println("Box Volume: " + boxVolume);
+        System.out.println("Box Volume: " + someBox.getVolume());
     }
 }
